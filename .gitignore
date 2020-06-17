@@ -1,2 +1,4 @@
-# Project exclude paths
-/node_modules/
+.idea
+/.idea/*
+package-lock.json
+webriverio-test/node_modules/
