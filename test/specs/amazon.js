@@ -61,8 +61,8 @@ describe('Register Page',()=>{
     });
 
     it('should verify i button is present', function () {
-        const button = $$('[class="a-alert-content"]')[7].isDisplayed()
-        expect(button).toEqual(true)
+        const button = $$('[class="a-alert-content"]')[7].isDisplayed();
+        expect(button).toEqual(true);
         
     });
 
