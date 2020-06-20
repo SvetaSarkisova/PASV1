@@ -19,7 +19,7 @@ describe('REGISTRATION PAGE', ()=>{
     });
 
     it('should fill out last name field', function () {
-        const field = $('[name="lastName"]')
+        const field = $('[name="lastName"]');
         field.setValue('Happy')
     });
 
